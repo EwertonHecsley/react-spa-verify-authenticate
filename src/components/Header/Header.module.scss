@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    min-width: 100%;
+    border: solid 1px;
+
+    h1{
+        font-size: 2rem;
+    }
+
+    nav{
+        display: flex;
+        gap: 15px;
+
+        ul{
+            display: flex;
+            list-style: none;
+
+        li{
+            margin: 0 10px;
+        }
+
+
+            a{
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+
+            &:hover{
+                color: #007BFF;
+            }
+        }
+    }
+        
+    }
+}
